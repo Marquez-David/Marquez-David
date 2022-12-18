@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 📚 About Me:
 I am a versatilist and easily adapt to different hats depending on what the project requires. I love exploring new tech stack and leveraging them to build cool stuffs.<br><br>🏦   I’m currently working at Accenture as a Cloud Transformation & Architecture Analyst<br>💻   I love to code and learn new stuff<br>👨🏻‍💻   Most of my collegue and own projects are available on Github<br>📫   Feel free to ping me on LinkedIn<br>📝   Checkout my resume<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/davidmarquezminguez) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/15981094/david-márquez) 
