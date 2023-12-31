@@ -1,0 +1,56 @@
+---
+import Layout from "../layouts/Layout.astro";
+import StepperItem from "../components/StepperItem.astro";
+import ImageCard from "../components/ImageCard.astro";
+
+import experience from "../../data/experience.json";
+import { projects } from "../../data/projects";
+---
+
+<Layout
+	title="David Márquez Mínguez - Computer Engineer"
+	description="Versatilist and easily adapt to different hats depending on what the project requires. I love exploring new tech stack and leveraging them to build cool stuffs."
+>
+	<main class="px-4">
+		<!--- About section -->
+		<section id="about" class="py-10 mx-auto lg:w-[740px]">
+			<div class="flex flex-row items-center">
+				<img
+					class="rounded-full size-16"
+					src="https://avatars.githubusercontent.com/u/45391647?s=400&u=bda41410d3c115cdd367c6b21355723c72a0bc7e&v=4"
+					alt="Portfolio"
+				/>
+				<h1 class="text-white text-5xl font-bold pl-4">
+					David Márquez Mínguez
+				</h1>
+			</div>
+			<h2 class="text-xl text-wrap my-4">
+				I am a Spanish <span class="text-yellow-500">Computer Engineer</span>
+				 with a solid experience in <span class="text-yellow-500"
+					>Front-End development</span
+				>. I have actively participated in several personal and professional
+				projects, demonstrating skills in multiple technologies.
+			</h2>
+		</section>
+
+		<!--- Education & Work experience section -->
+		<section id="experience" class="mx-auto lg:w-[740px]">
+			<h2 class="text-3xl font-semibold my-4 flex text-white/80 justify-center">
+				Education & Work Experience
+			</h2>
+			<ol class="items-center sm:flex">
+				{experience.map((item) => <StepperItem {...item} />)}
+			</ol>
+		</section>
+
+		<!--- Projects section -->
+		<section id="projects" class="mx-auto lg:w-[740px]">
+			<h2 class="text-3xl font-semibold my-8 flex text-white/80 justify-center">
+				Projects
+			</h2>
+			<div class="flex flex-wrap justify-center">
+				{projects.map((project) => <ImageCard {...project} />)}
+			</div>
+		</section>
+	</main>
+</Layout>

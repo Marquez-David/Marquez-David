@@ -1,0 +1,20 @@
+[
+  {
+    "type": "education",
+    "title": "University of Alcalá",
+    "description": "Bachelor’s Degree in Computer Engineering with specialization in Computer Science.",
+    "date": "Aug. 2016 - May 2021"
+  },
+  {
+    "type": "work",
+    "title": "Front-End Developer",
+    "description": "Develop an Android/IOS application implementing innovative solutions using React Native.",
+    "date": "Mar. 2021 - Jan. 2022"
+  },
+  {
+    "type": "work",
+    "title": "Cloud Arch. Analyst",
+    "description": "Develop a cross-platform software applying user-centered design principles.",
+    "date": "Feb. 2022 - Oct. 2023"
+  }
+]

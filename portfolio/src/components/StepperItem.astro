@@ -1,0 +1,28 @@
+---
+import EducationIcon from "../../public/EducationIcon.astro";
+import WorkIcon from "../../public/WorkIcon.astro";
+
+const { type, title, description, date } = Astro.props;
+---
+
+<li class="relative mb-6 sm:mb-0">
+  <div class="flex items-center">
+    <div
+      class="z-10 flex items-center justify-center w-6 h-6 bg-white rounded-full ring-white ring-8"
+    >
+      {type === "education" ? <EducationIcon /> : <WorkIcon />}
+    </div>
+    <div class="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
+  </div>
+  <div class="mt-6 sm:pe-8">
+    <h3 class="text-lg font-semibold text-white">
+      {title}
+    </h3>
+    <time class="block mb-3 text-sm font-normal leading-none text-gray-400">
+      {date}
+    </time>
+    <p class="text-base font-normal text-gray-500">
+      {description}
+    </p>
+  </div>
+</li>
