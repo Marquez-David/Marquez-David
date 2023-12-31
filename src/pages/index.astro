@@ -35,7 +35,7 @@ import { projects } from "../../data/projects";
 
 		<!--- Education & Work experience section -->
 		<section id="experience" class="mx-auto lg:w-[740px]">
-			<h2 class="text-3xl font-semibold my-4 flex text-white/80 justify-center">
+			<h2 class="text-3xl font-semibold my-6 flex text-white/80 justify-center">
 				Education & Work Experience
 			</h2>
 			<ol class="items-center sm:flex">
@@ -45,12 +45,20 @@ import { projects } from "../../data/projects";
 
 		<!--- Projects section -->
 		<section id="projects" class="mx-auto lg:w-[740px]">
-			<h2 class="text-3xl font-semibold my-8 flex text-white/80 justify-center">
+			<h2 class="text-3xl font-semibold my-6 flex text-white/80 justify-center">
 				Projects
 			</h2>
 			<div class="flex flex-wrap justify-center">
 				{projects.map((project) => <ImageCard {...project} />)}
 			</div>
+			<a
+				href="https://github.com/Marquez-David?tab=repositories"
+				class="mt-2 rounded-full flex justify-center gap-x-2 py-2 px-8 hover:scale-105 transition"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Much more
+			</a>
 		</section>
 	</main>
 </Layout>

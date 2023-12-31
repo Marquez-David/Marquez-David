@@ -59,21 +59,21 @@ export const projects = [
   {
     "title": "Spotify clone Application",
     "description": "Complete and functional development of a Spotify clone application. Users can interact with their playlists, albums, podcasts and artists, and play their songs.",
-    "image": "https://github.com/Marquez-David/Marquez-David/blob/main/assets/spotify-mobile.jpg?raw=true",
+    "image": "/assets/spotify-mobile.jpg",
     "href": "https://github.com/Marquez-David/SpotifyClone/tree/main/mobile",
     "tags": [TAGS.REACTNATIVE, TAGS.JAVASCRIPT, TAGS.SPOTIFYAPI]
   },
   {
     "title": "Spotify clone Web",
     "description": "Development of a Spotify clone web. It is still under development 🚀",
-    "image": "https://github.com/Marquez-David/Marquez-David/blob/main/assets/spotify-web.png?raw=true",
+    "image": "/assets/spotify-web.png",
     "href": "https://github.com/Marquez-David/SpotifyClone/tree/main/web",
     "tags": [TAGS.ASTRO, TAGS.REACT, TAGS.TYPESCRIPT, TAGS.TAILWIND]
   },
   {
     "title": "Web Scraping tools comparison",
-    "description": "Comparison in effectiveness and efficiency of the most popular web scraping tools. The project is currently private but you can request access.",
-    "image": "https://github.com/Marquez-David/Marquez-David/blob/main/assets/web-scraper.jpg?raw=true",
+    "description": "In this project, the quality of the information extracted from each tool, and the use of resources for each extraction are evaluated. The project is currently private but you can request access 🔐. ",
+    "image": "/assets/web-scraper.jpg",
     "href": "https://github.com/Marquez-David/TFG/tree/main",
     "tags": [TAGS.PYTHON, TAGS.R]
   }
