@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # vscode files
 .vscode
+
+# cv files 
+CV/
+CL/
