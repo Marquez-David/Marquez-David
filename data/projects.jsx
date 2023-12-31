@@ -1,7 +1,3 @@
-import spotify_mobile from "../public/assets/spotify-mobile.jpg"
-import spotify_web from "../public/assets/spotify-web.png"
-import web_scraper from "../public/assets/web-scraper.jpg"
-
 import TailwindIcon from "../icons/TailwindIcon.astro";
 import ReactIcon from "../icons/ReactIcon.astro";
 import AstroIcon from "../icons/AstroIcon.astro";
@@ -63,21 +59,21 @@ export const projects = [
   {
     "title": "Spotify clone Application",
     "description": "Complete and functional development of a Spotify clone application. Users can interact with their playlists, albums, podcasts and artists, and play their songs.",
-    "image": { spotify_mobile },
+    "image": "https://github.com/Marquez-David/Marquez-David/blob/main/public/assets/spotify-mobile.jpg?raw=true",
     "href": "https://github.com/Marquez-David/SpotifyClone/tree/main/mobile",
     "tags": [TAGS.REACTNATIVE, TAGS.JAVASCRIPT, TAGS.SPOTIFYAPI]
   },
   {
     "title": "Spotify clone Web",
     "description": "Development of a Spotify clone web. It is still under development 🚀",
-    "image": { spotify_web },
+    "image": "https://github.com/Marquez-David/Marquez-David/blob/main/public/assets/spotify-web.png?raw=true",
     "href": "https://github.com/Marquez-David/SpotifyClone/tree/main/web",
     "tags": [TAGS.ASTRO, TAGS.REACT, TAGS.TYPESCRIPT, TAGS.TAILWIND]
   },
   {
     "title": "Web Scraping tools comparison",
     "description": "In this project, the quality of the information extracted from each tool, and the use of resources for each extraction are evaluated. The project is currently private but you can request access 🔐. ",
-    "image": { web_scraper },
+    "image": "https://github.com/Marquez-David/Marquez-David/blob/main/public/assets/web-scraper.jpg?raw=true",
     "href": "https://github.com/Marquez-David/TFG/tree/main",
     "tags": [TAGS.PYTHON, TAGS.R]
   }
