@@ -6,6 +6,7 @@ import TypeScriptIcon from "../icons/TypeScriptIcon.astro";
 import SpotifyIcon from "../icons/SpotifyIcon.astro"
 import PythonIcon from "../icons/PythonIcon.astro"
 import RIcon from "../icons/RIcon.astro"
+import NextJSIcon from "../icons/NextJSIcon.astro";
 
 const TAGS = {
   TAILWIND: {
@@ -52,6 +53,11 @@ const TAGS = {
     name: "R",
     class: "bg-[#003159] text-white",
     icon: RIcon,
+  },
+  NEXTJS: {
+    name: "NextJS",
+    class: "bg-[#003159] text-white",
+    icon: NextJSIcon,
   }
 };
 
@@ -68,7 +74,7 @@ export const projects = [
     "description": "Development of a Spotify clone web. It is still under development 🚀",
     "image": "/assets/spotify_web.webp",
     "href": "https://github.com/Marquez-David/SpotifyClone/tree/main/web",
-    "tags": [TAGS.ASTRO, TAGS.REACT, TAGS.TYPESCRIPT, TAGS.TAILWIND]
+    "tags": [TAGS.NEXTJS, TAGS.REACT, TAGS.JAVASCRIPT, TAGS.TAILWIND, TAGS.SPOTIFYAPI]
   },
   {
     "title": "Web Scraping tools comparison",
