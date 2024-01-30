@@ -64,21 +64,21 @@ const TAGS = {
 export const projects = [
   {
     "title": "Spotify clone Application",
-    "description": "Complete and functional development of a Spotify clone application. Users can interact with their playlists, albums, podcasts and artists, and play their songs.",
+    "description": "Complete and functional development of a Spotify clone application for android. Users can interact with their playlists, albums, podcasts and artists, and play their songs. 🎺",
     "image": "/assets/spotify_mobile.webp",
     "href": "https://github.com/Marquez-David/SpotifyClone/tree/main/mobile",
     "tags": [TAGS.REACTNATIVE, TAGS.JAVASCRIPT, TAGS.SPOTIFYAPI]
   },
   {
     "title": "Spotify clone Web",
-    "description": "Development of a Spotify clone web. It is still under development 🚀",
+    "description": "Complete and functional development of a Spotify clone web application. Users can interact with their playlists, albums, podcasts and artists. It is still under development. 🚀",
     "image": "/assets/spotify_web.webp",
     "href": "https://github.com/Marquez-David/SpotifyClone/tree/main/web",
     "tags": [TAGS.NEXTJS, TAGS.REACT, TAGS.JAVASCRIPT, TAGS.TAILWIND, TAGS.SPOTIFYAPI]
   },
   {
-    "title": "Web Scraping tools comparison",
-    "description": "In this project, the quality of the information extracted from each tool, and the use of resources for each extraction are evaluated. The project is currently private but you can request access 🔐. ",
+    "title": "Web Scraping tools evaluation",
+    "description": "In this project the most important programming packages within web scraping are evaluated. The evaluation method is based on the quality of the extracted information and the use of resources for each extraction. The project is private but request access. 🔐",
     "image": "/assets/web_scraper.webp",
     "href": "https://github.com/Marquez-David/TFG/tree/main",
     "tags": [TAGS.PYTHON, TAGS.R]
