@@ -1,0 +1,26 @@
+[
+  {
+    "type": "education",
+    "title": "Computer Engineering",
+    "description": "Bachelor’s Degree in Computer Engineering with specialization in Computer Science at University of Alcalá.",
+    "date": "Aug. 2016 - May 2021"
+  },
+  {
+    "type": "work",
+    "title": "Mobile Developer",
+    "description": "Develop an Android/IOS application implementing innovative solutions using React Native. Responsible for product release management and multi-platform publishing.",
+    "date": "Mar. 2021 - Jan. 2022"
+  },
+  {
+    "type": "work",
+    "title": "Cloud Architech & Tranformation Analyst",
+    "description": "Develop cross-platform software in ServiceNow. My experience was reinforced by certifications such as Certified System Administrator.",
+    "date": "Feb. 2022 - Oct. 2023"
+  },
+  {
+    "type": "work",
+    "title": "Full Stack developer",
+    "description": "Designing and implementing responsive user interfaces to enhance user experience. Managing backend infrastructure to handle complex application logic and ensure efficient data management.",
+    "date": "Feb. 2024 - Present"
+  }
+]

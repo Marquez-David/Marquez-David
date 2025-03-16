@@ -1,0 +1,228 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape David Márquez Mínguez} \\ \vspace{1pt}
+    \small +34 689770454 $|$ \href{mailto:x@x.com}{\underline{davidmarquezminguez@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/davidmarquezminguez/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/Marquez-David}{\underline{GitHub}}  $|$
+    \href{https://marquez-david.vercel.app}{\underline{Portfolio}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Alcalá}{Madrid, Spain}
+      {Bachelor's Degree in Computer Engineering with specialization in Computer Science}{Aug. 2016 -- May 2021}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Full Stack developer}{Feb. 2024 -- Present}
+      {Acuratio}{San Sebastián, Spain}
+      \resumeItemListStart
+        \resumeItem{Creation of responsive interfaces for a web application.}
+        \resumeItem{Back-end development to handle the application's logic and data persistence.}
+        \resumeItem{Packaging and deployment of the application in the cloud.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Cloud Transformation \& Architecture Analyst}{Feb. 2022 -- Oct. 2023}
+      {Accenture}{Madrid, Spain}
+      \resumeItemListStart
+        \resumeItem{Development of functionalities in ServiceNow using JavaScript.}
+        \resumeItem{Develop a cross-platform software to meet project requirements applying user-centered design principles.}
+        \resumeItem{Take projects from the planning phase to delivery to the end customer using agile methodologies.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Front-End Developer}{Mar. 2021 -- Jan. 2022}
+      {RecomiendApp}{Madrid, Spain}
+      \resumeItemListStart
+        \resumeItem{Develop an Android/IOS application using React Native.}
+        \resumeItem{Collaborate with the design team to implement innovative solutions and enhancements to existing features.}
+        \resumeItem{Responsible for product release management and multi-platform publishing.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Spotify} $|$ \emph{JavaScript/TypeScript, Astro, React, React Native, ...,  ReactQuery, Git}}{Jun. 2023 -- Dec, 2023}
+          \resumeItemListStart
+            \resumeItem{Complete and functional development of a Spotify clone application for Android.}
+	 \resumeItem{Complete and functional development of a Spotify clone web.}
+            \resumeItem{Integration with the Spotify API to display real data.}
+            \resumeItem{Code optimization by applying software patterns and SOLID principles to ensure efficient development.}
+            \resumeItem{Implementation of End-to-End tests using Jest to ensure code robustness and quality.}
+          \resumeItemListEnd
+
+         \resumeProjectHeading
+          {\textbf{Web scraper analyzer} $|$ \emph{R, Python, Web scraping, LaTex, Git}}{Oct. 2021 -- Feb. 2022}
+          \resumeItemListStart
+            \resumeItem{Conduct a market analysis of the most widely used web scrapers.}
+            \resumeItem{Exhaustive analysis of the functionality and algorithms used in the scrapers.}
+            \resumeItem{Development of a Python program to evaluate the cost-effectiveness and reliability of scrapers.}
+            \resumeItem{Comparison of the results obtained through graphs and control panels.}
+          \resumeItemListEnd
+
+       \resumeProjectHeading
+          {\textbf{Other projects} $|$ \emph{Python, JavaScript, ..., HTML, CSS, Git}}{Oct. 2016 -- Present}
+          \resumeItemListStart
+            \resumeItem{Programming applications on CPU and GPU}
+            \resumeItem{Development of different types of projects related to IoT.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+%
+%-----------CERTIFICATES-----------
+\section{Certificates}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Microsoft} $|$ \emph{GitHub Universe Cloud Skills Challenge}}{Nov. 2023}
+      \resumeProjectHeading
+          {\textbf{Cambridge University} $|$ \emph{First Certificate in English}}{Feb. 2023}
+      \resumeProjectHeading
+          {\textbf{ServiceNow} $|$ \emph{Certified System Administrator}}{Oct. 2022}
+      \resumeProjectHeading
+          {\textbf{ServiceNow} $|$ \emph{Micro-Certification - Flow Designer}}{Mar. 2022}
+    \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: JavaScript, Java, Python, R, Scala, Racket, Prolog, C/C++, Cuda} \\
+     \textbf{Front-End Technologies}{: React, React Native, TypeScript, HTML, jQuery, Boostrap, Tailwind CSS} \\
+      \textbf{Other technologies}{: Redis, SQLAlchemy, Gunicorn, Docker} \\
+     \textbf{Developer Tools}{: Git, Visual Studio Code, NetBeans, Eclipse, Arduino} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

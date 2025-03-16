@@ -1,0 +1,58 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import "@fontsource-variable/onest";
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/assets/PromptIcon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<div
+		class="h-max lg:w-screen min-[320px]:w-fit bg-[#000000] bg-[radial-gradient(#ffffff33_0.2px,#000000_1px)] bg-[size:20px_20px]"
+	>
+		<body>
+			<Header />
+			<slot />
+			<Footer />
+		</body>
+	</div>
+
+	<style is:global>
+		:root {
+			color-scheme: light dark;
+		}
+		html {
+			font-family: "Onest Variable", system-ui, sans-serif;
+		}
+		body {
+			background: #050505;
+			display: flex;
+			flex-direction: column;
+			overflow-x: hidden;
+			overflow-y: auto;
+		}
+		::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background-color: #fff;
+			border-radius: 5px;
+		}
+	</style>
+
+
+</html>
