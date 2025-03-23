@@ -1,26 +1,49 @@
+import { useEffect, useRef, useState } from 'react';
+import { createBlendy } from 'blendy';
 
-/**
- * Card component that displays a title, date, description, and an action button.
- * @param {string} title - The title to display on the card.
- * @param {string} date - The date to display on the card.
- * @param {string} description - The description text to display on the card.
- * @param {Function} action - The callback function to execute when the card is clicked.
- * @returns {JSX.Element} The rendered Card component.
- */
-const Card = ({ title, date, description, action }) => (
-  <button onClick={action}>
-    <div class="flex flex-row mb-1 w-[350px] items-center">
-      <h3 class="text-lg font-semibold text-yellow-600">
-        {title}
-      </h3>
-      <time class="block text-sm leading-none text-white/80 ml-auto">
-        {date}
-      </time>
-    </div>
-    <p class="text-base text-white/80 text-left">
-      {description}
-    </p>
-  </button>
-);
+import Modal from './Modal.jsx';
+
+const Card = ({ id, title, subtitle, resume, description, date }) => {
+  const blendyRef = useRef(null);
+  const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    blendyRef.current = createBlendy({ animation: 'dynamic' });
+  }, []);
+
+  const openModal = () => {
+    setShowModal(true);
+    if (blendyRef.current) {
+      blendyRef.current.toggle(id);
+    }
+  };
+
+  const closeModal = () => {
+    if (blendyRef.current) {
+      blendyRef.current.untoggle(id, () => {
+        setShowModal(false);
+      });
+    }
+  };
+
+  return (
+    <>
+      {showModal && <Modal id={id} subtitle={subtitle} description={description} action={closeModal} />}
+      <button data-blendy-from={id} onClick={openModal}>
+        <div className="flex flex-row mb-1 w-[350px] items-center">
+          <h3 className="text-lg font-semibold text-yellow-600">
+            {title}
+          </h3>
+          <time className="block text-sm leading-none text-white/80 ml-auto">
+            {date}
+          </time>
+        </div>
+        <p className="text-base text-white/80 text-left">
+          {resume}
+        </p>
+      </button>
+    </>
+  );
+};
 
 export default Card;

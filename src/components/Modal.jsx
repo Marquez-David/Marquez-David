@@ -1,28 +1,28 @@
-import { useState } from 'react';
-import Card from './Card.jsx';
+import { createPortal } from 'react-dom';
 
-const Modal = ({ title, date, description }) => {
-  const [isOpen, setIsOpen] = useState(false);
+import CloseIcon from "../../icons/CloseIcon.jsx"
 
-  const openModal = () => setIsOpen(true);
-  const closeModal = () => setIsOpen(false);
-
+const Modal = ({ id, subtitle, description, action }) => {
   return (
     <>
-      <Card title={title} date={date} description={description} action={openModal} />
-
-      {isOpen && (
-        <div className="modal-overlay" onClick={closeModal}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <h2>Este es el Modal</h2>
-            <p>Contenido del modal...</p>
-            <button onClick={closeModal}>Cerrar</button>
+      {createPortal(
+        <div className="fixed top-1/2 left-1/3 transform-translate-x-1/2 w-[600px] bg-gray-800 rounded-[10px] p-4 overflow-hidden" data-blendy-to={id}>
+          <div className="flex justify-end pe-2">
+            <button className="bg-transparent w-[14px] h-[14px] border-none cursor-pointer" onClick={() => action()}>
+              <CloseIcon />
+            </button>
           </div>
-        </div>
+          <div className="flex justify-between">
+            <h2 className="text-lg font-semibold text-yellow-600 m-0">{subtitle}</h2>
+          </div>
+          <div className="text-base text-white/80 text-left">
+            <p>{description}</p>
+          </div>
+        </div>,
+        document.body
       )}
     </>
   );
 };
 
 export default Modal;
-

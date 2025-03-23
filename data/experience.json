@@ -1,26 +1,38 @@
 [
   {
+    "id": "lp136nupAc3ToAvu",
     "type": "work",
     "title": "Software Engineer",
-    "description": "Designing and implementing responsive user interfaces to enhance user experience. Managing backend infrastructure to handle complex application logic and ensure efficient data management.",
+    "subtitle": "Software Engineer",
+    "resume": "Designing and implementing responsive user interfaces to enhance user experience. Managing backend infrastructure to handle complex application logic and ensure efficient data management.",
+    "description": "Details",
     "date": "Feb. 2024 ➡ Present"
   },
   {
+    "id": "v6adHHwHjIUvCgpB",
     "type": "work",
     "title": "Cloud Arch. Analyst",
-    "description": "Develop cross-platform software in ServiceNow. My experience was reinforced by certifications such as Certified System Administrator.",
+    "subtitle": "Cloud Transformation & Architecture Analyst",
+    "resume": "Develop cross-platform software in ServiceNow. My experience was reinforced by certifications such as Certified System Administrator.",
+    "description": "Details",
     "date": "Feb. 2022 ➡ Oct. 2023"
   },
   {
+    "id": "tbP1XaLq1QoD2EQe",
     "type": "work",
     "title": "Mobile Developer",
-    "description": "Develop an Android/IOS application implementing innovative solutions using React Native. Responsible for product release management and multi-platform publishing.",
+    "subtitle": "Mobile Developer",
+    "resume": "Develop an Android/IOS application implementing innovative solutions using React Native. Responsible for product release management and multi-platform publishing.",
+    "description": "Details",
     "date": "Mar. 2021 ➡ Jan. 2022"
   },
   {
+    "id": "lddTaWCYmO21C0qt",
     "type": "education",
     "title": "Computer Engineering",
-    "description": "Bachelor’s Degree in Computer Engineering with specialization in Computer Science at University of Alcalá.",
+    "subtitle": "Computer Engineering with specialization in Computer Science",
+    "resume": "Bachelor’s Degree in Computer Engineering with specialization in Computer Science at University of Alcalá.",
+    "description": "Details",
     "date": "Aug. 2016 ➡ May 2021"
   }
 ]
