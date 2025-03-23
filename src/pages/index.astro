@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import StepperItem from "../components/StepperItem.astro";
+import Item from "../components/Item.astro";
 import ImageCard from "../components/ImageCard.astro";
 
 import experience from "../../data/experience.json";
@@ -39,7 +39,7 @@ import { projects } from "../../data/projects";
 				Education & Work Experience
 			</h2>
 			<ol class="relative border-s w-px left-1/2 h-full border-gray-200">
-				{experience.map((item, index) => <StepperItem key={index} {...item} />)}
+				{experience.map((item, index) => <Item index={index} {...item} />)}
 			</ol>
 		</section>
 
