@@ -30,7 +30,7 @@ const Card = ({ id, title, subtitle, resume, description, date }) => {
     <>
       {showModal && <Modal id={id} subtitle={subtitle} description={description} action={closeModal} />}
       <button data-blendy-from={id} onClick={openModal}>
-        <div className="flex flex-row mb-1 w-[350px] items-center">
+        <div className="flex flex-row mb-1 w-[450px] items-center">
           <h3 className="text-lg font-semibold text-yellow-600">
             {title}
           </h3>

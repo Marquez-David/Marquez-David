@@ -3,35 +3,53 @@
     "id": "lp136nupAc3ToAvu",
     "type": "work",
     "title": "Software Engineer",
-    "subtitle": "Software Engineer",
-    "resume": "Designing and implementing responsive user interfaces to enhance user experience. Managing backend infrastructure to handle complex application logic and ensure efficient data management.",
-    "description": "Details",
+    "subtitle": "Software Engineer at Acuratio",
+    "resume": "Responsible for backend and frontend development as well as database management. I work on building and maintaining a platform that allows companies to merge data sets while maintaining data protection.",
+    "description": "Contribute to the comprehensive development of the company's federated learning platform. My responsibilities include designing and implementing both frontend and backend components, ensuring seamless integration between the two. Additionally, I manage database interactions, collaborating closely with the team to deliver solutions that enable organizations to combine and analyze data collaboratively, all while upholding the highest standards of data privacy and security.",
     "date": "Feb. 2024 ➡ Present"
+  },
+  {
+    "id": "h1ZN2eRJMnsSHgPe",
+    "type": "project",
+    "title": "Spotify clone",
+    "subtitle": "Spotify web & application clone",
+    "resume": "Complete and functional development of a Spotify clone using React Native for mobile platforms and React for the web, integrating Spotify’s API to enable features like music playback, playlists, and user authentication.",
+    "description": "Developed a Spotify clone using React Native for mobile platforms and React for the web, integrating Spotify’s API to enable features such as music playback, playlist management, and user authentication. The project focused on delivering a seamless, responsive experience across both mobile and web platforms, with real-time access to music data through Spotify’s API. The app replicates the core functionality of Spotify, offering smooth transitions and an intuitive interface for users.",
+    "date": "Feb. 2022 ➡ Oct. 2023"
   },
   {
     "id": "v6adHHwHjIUvCgpB",
     "type": "work",
-    "title": "Cloud Arch. Analyst",
-    "subtitle": "Cloud Transformation & Architecture Analyst",
-    "resume": "Develop cross-platform software in ServiceNow. My experience was reinforced by certifications such as Certified System Administrator.",
-    "description": "Details",
+    "title": "Cloud Architecture Analyst",
+    "subtitle": "Cloud Transformation & Architecture Analyst at Accenture",
+    "resume": "Implement cloud-based solutions, utilizing ServiceNow to optimize workflows and operations. I contributed to the successful transformation of cloud architectures and improved service delivery for clients..",
+    "description": "Played an important role in helping clients with their cloud transformation. I analyzed their needs and implemented cloud-based solutions, optimizing operations and improving service delivery. Using ServiceNow, I automated workflows, increased system efficiency, and ensured seamless integration with other platforms. In addition, I earned two certifications, the Certified System Administrator and the Process Designer Micro Certification, which deepened my knowledge of ServiceNow and its capabilities. This enabled me to contribute more effectively to optimizing cloud architectures and ensure that our solutions are scalable and tailored to customer needs.",
     "date": "Feb. 2022 ➡ Oct. 2023"
   },
   {
     "id": "tbP1XaLq1QoD2EQe",
     "type": "work",
     "title": "Mobile Developer",
-    "subtitle": "Mobile Developer",
-    "resume": "Develop an Android/IOS application implementing innovative solutions using React Native. Responsible for product release management and multi-platform publishing.",
-    "description": "Details",
+    "subtitle": "Mobile Developer at Recomiend.app",
+    "resume": "Building and maintaining cross-platform mobile applications, ensuring seamless functionality on both iOS and Android. I worked closely with product and design teams to implement user-friendly features while optimizing performance and ensuring high-quality code standards.",
+    "description": "Focused mainly on extending and maintaining a mobile app that ran on both iOS and Android. I worked with cross-functional teams to design user-friendly experiences and develop new features. My role also involved optimizing app performance, ensuring smooth functionality across both platforms, and addressing any issues that arose during development. I collaborated closely with product managers, designers, and QA engineers to deliver high-quality updates and features, while adhering to best practices for code quality, testing, and debugging. This helped improve the overall user experience and contributed to the app’s ongoing success.",
     "date": "Mar. 2021 ➡ Jan. 2022"
+  },
+  {
+    "id": "rEDnK0Sp5FRBtPOr",
+    "type": "project",
+    "title": "Web Scraping Tools Assessment",
+    "subtitle": "Analysis and comparison of packages for web scraping development",
+    "resume": "An in-depth analysis of web scraping tools is conducted, evaluating the quality of extracted information and resource usage, such as CPU/RAM and execution time. The study compares tools based on their heuristics, effectiveness, and efficiency.",
+    "description": "Focus through in-depth scrutiny relating to web scraping tools pertaining to data extraction from websites, with a perspective between CPU usage, RAM houses and time taken to run a jobs. The efficiency of instruments is also analyzed as well as the amount of proper information that is recalled. This analysis looks at the results of advanced heuristics and the impact of the programming language and parser used on the performance and the effort of collecting the data with some comparisons of different web scraping methods. The primary goal is to find out which tools for web scraping are the most effective and efficient within these parameters.",
+    "date": "Aug. 2021 ➡ Feb. 2022"
   },
   {
     "id": "lddTaWCYmO21C0qt",
     "type": "education",
-    "title": "Computer Engineering",
-    "subtitle": "Computer Engineering with specialization in Computer Science",
-    "resume": "Bachelor’s Degree in Computer Engineering with specialization in Computer Science at University of Alcalá.",
+    "title": "Computer Science",
+    "subtitle": "Computer Science with Mention in Computation",
+    "resume": "",
     "description": "Details",
     "date": "Aug. 2016 ➡ May 2021"
   }
