@@ -13,7 +13,7 @@ const Modal = ({ id, subtitle, description, action }) => {
             </button>
           </div>
           <div className="flex justify-between mb-2">
-            <h2 className="text-lg font-semibold text-yellow-600 m-0">{subtitle}</h2>
+            <h2 className="text-lg font-semibold text-blue-200 m-0">{subtitle}</h2>
           </div>
           <div className="text-base text-white/80 text-left">
             <p>{description}</p>

@@ -63,22 +63,15 @@ const TAGS = {
 
 export const projects = [
   {
-    "title": "Spotify clone Application",
-    "description": "Complete and functional development of a Spotify clone application for android. Users can interact with their playlists, albums, podcasts and artists, and play their songs. 🎺",
+    "title": "Spotify clone",
+    "description": "Complete and functional development of a Spotify clone using React Native for mobile platforms and React for the web, integrating Spotify’s API to enable features like music playback, playlists, and user authentication.",
     "image": "/assets/spotify_mobile.webp",
     "href": "https://github.com/Marquez-David/SpotifyClone/tree/main/mobile",
-    "tags": [TAGS.REACTNATIVE, TAGS.JAVASCRIPT, TAGS.SPOTIFYAPI]
-  },
-  {
-    "title": "Spotify clone Web",
-    "description": "Complete and functional development of a Spotify clone web application. Users can interact with their playlists, albums, podcasts and artists. It is still under development. 🚀",
-    "image": "/assets/spotify_web.webp",
-    "href": "https://github.com/Marquez-David/SpotifyClone/tree/main/web",
-    "tags": [TAGS.NEXTJS, TAGS.REACT, TAGS.JAVASCRIPT, TAGS.TAILWIND, TAGS.SPOTIFYAPI]
+    "tags": [TAGS.NEXTJS, TAGS.REACT, TAGS.TAILWIND, TAGS.REACTNATIVE, TAGS.JAVASCRIPT, TAGS.SPOTIFYAPI]
   },
   {
     "title": "Web Scraping tools evaluation",
-    "description": "In this project the most important programming packages within web scraping are evaluated. The evaluation method is based on the quality of the extracted information and the use of resources for each extraction. The project is private but request access. 🔐",
+    "description": "An in-depth analysis of web scraping tools is conducted, evaluating the quality of extracted information and resource usage, such as CPU/RAM and execution time. The study compares tools based on their heuristics, effectiveness, and efficiency.",
     "image": "/assets/web_scraper.webp",
     "href": "https://github.com/Marquez-David/TFG/tree/main",
     "tags": [TAGS.PYTHON, TAGS.R]

@@ -9,15 +9,6 @@
     "date": "Feb. 2024 ➡ Present"
   },
   {
-    "id": "h1ZN2eRJMnsSHgPe",
-    "type": "project",
-    "title": "Spotify clone",
-    "subtitle": "Spotify web & application clone",
-    "resume": "Complete and functional development of a Spotify clone using React Native for mobile platforms and React for the web, integrating Spotify’s API to enable features like music playback, playlists, and user authentication.",
-    "description": "Developed a Spotify clone using React Native for mobile platforms and React for the web, integrating Spotify’s API to enable features such as music playback, playlist management, and user authentication. The project focused on delivering a seamless, responsive experience across both mobile and web platforms, with real-time access to music data through Spotify’s API. The app replicates the core functionality of Spotify, offering smooth transitions and an intuitive interface for users.",
-    "date": "Feb. 2022 ➡ Oct. 2023"
-  },
-  {
     "id": "v6adHHwHjIUvCgpB",
     "type": "work",
     "title": "Cloud Architecture Analyst",
@@ -34,15 +25,6 @@
     "resume": "Building and maintaining cross-platform mobile applications, ensuring seamless functionality on both iOS and Android. I worked closely with product and design teams to implement user-friendly features while optimizing performance and ensuring high-quality code standards.",
     "description": "Focused mainly on extending and maintaining a mobile app that ran on both iOS and Android. I worked with cross-functional teams to design user-friendly experiences and develop new features. My role also involved optimizing app performance, ensuring smooth functionality across both platforms, and addressing any issues that arose during development. I collaborated closely with product managers, designers, and QA engineers to deliver high-quality updates and features, while adhering to best practices for code quality, testing, and debugging. This helped improve the overall user experience and contributed to the app’s ongoing success.",
     "date": "Mar. 2021 ➡ Jan. 2022"
-  },
-  {
-    "id": "rEDnK0Sp5FRBtPOr",
-    "type": "project",
-    "title": "Web Scraping Tools Assessment",
-    "subtitle": "Analysis and comparison of packages for web scraping development",
-    "resume": "An in-depth analysis of web scraping tools is conducted, evaluating the quality of extracted information and resource usage, such as CPU/RAM and execution time. The study compares tools based on their heuristics, effectiveness, and efficiency.",
-    "description": "Focus through in-depth scrutiny relating to web scraping tools pertaining to data extraction from websites, with a perspective between CPU usage, RAM houses and time taken to run a jobs. The efficiency of instruments is also analyzed as well as the amount of proper information that is recalled. This analysis looks at the results of advanced heuristics and the impact of the programming language and parser used on the performance and the effort of collecting the data with some comparisons of different web scraping methods. The primary goal is to find out which tools for web scraping are the most effective and efficient within these parameters.",
-    "date": "Aug. 2021 ➡ Feb. 2022"
   },
   {
     "id": "lddTaWCYmO21C0qt",

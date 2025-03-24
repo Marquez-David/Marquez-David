@@ -30,7 +30,7 @@ const years = calculateExperienceYears("2021-01-01");
 			</div>
 			<h2 class="text-white text-xl text-wrap my-4">
 				I am a Spanish
-				<span class="text-yellow-500">
+				<span class="text-blue-200 font-semibold">
 					Computer Engineer with {years}+ years of experience in Front-End &
 					Back-End development.
 				</span>
@@ -40,9 +40,29 @@ const years = calculateExperienceYears("2021-01-01");
 		</section>
 
 		<section id="experience" class="mx-auto w-[700px]">
+			<h2 class="text-3xl font-semibold flex text-white justify-center mb-8">
+				Education & Work Experience
+			</h2>
 			<ol class="relative border-s w-px left-1/2 h-full border-gray-200">
 				{experience.map((item, index) => <Item index={index} {...item} />)}
 			</ol>
+		</section>
+		<!--- Projects section -->
+		<section id="projects" class="mx-auto w-[740px]">
+			<h2 class="text-3xl font-semibold flex pt-12 text-white justify-center">
+				Projects
+			</h2>
+			<div class="flex flex-wrap justify-center">
+				{projects.map((project) => <ImageCard {...project} />)}
+			</div>
+			<a
+				href="https://github.com/Marquez-David?tab=repositories"
+				class="rounded-full flex justify-center gap-x-2 px-8 hover:scale-105 transition"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Much more
+			</a>
 		</section>
 	</main>
 </Layout>
