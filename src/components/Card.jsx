@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { createBlendy } from 'blendy';
 
+import { TITLE_COLOR } from '../../utils/colors.js';
+
 import Modal from './Modal.jsx';
 
 const Card = ({ id, title, subtitle, resume, description, date }) => {
@@ -12,6 +14,8 @@ const Card = ({ id, title, subtitle, resume, description, date }) => {
   }, []);
 
   const openModal = () => {
+    document.body.style.overflow = 'hidden';
+    document.body.firstChild.style.pointerEvents = 'none';
     setShowModal(true);
     if (blendyRef.current) {
       blendyRef.current.toggle(id);
@@ -19,6 +23,8 @@ const Card = ({ id, title, subtitle, resume, description, date }) => {
   };
 
   const closeModal = () => {
+    document.body.style.overflow = '';
+    document.body.firstChild.style.pointerEvents = '';
     if (blendyRef.current) {
       blendyRef.current.untoggle(id, () => {
         setShowModal(false);
@@ -31,7 +37,7 @@ const Card = ({ id, title, subtitle, resume, description, date }) => {
       {showModal && <Modal id={id} subtitle={subtitle} description={description} action={closeModal} />}
       <button data-blendy-from={id} onClick={openModal}>
         <div className="flex flex-row mb-1 w-[450px] items-center">
-          <h3 className="text-lg font-semibold text-blue-200">
+          <h3 className={`text-lg font-semibold ${TITLE_COLOR}`}>
             {title}
           </h3>
           <time className="block text-sm leading-none text-white/80 ml-auto">

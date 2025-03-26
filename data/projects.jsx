@@ -64,9 +64,9 @@ const TAGS = {
 export const projects = [
   {
     "title": "Spotify clone",
-    "description": "Complete and functional development of a Spotify clone using React Native for mobile platforms and React for the web, integrating Spotify’s API to enable features like music playback, playlists, and user authentication.",
+    "description": "Complete and functional development of a Spotify clone using React Native for mobile platforms and React for the web. Integrating Spotify’s API to enable features like music playback, playlists, and user authentication.",
     "image": "/assets/spotify_mobile.webp",
-    "href": "https://github.com/Marquez-David/SpotifyClone/tree/main/mobile",
+    "href": "https://github.com/Marquez-David/SpotifyClone/tree/main",
     "tags": [TAGS.NEXTJS, TAGS.REACT, TAGS.TAILWIND, TAGS.REACTNATIVE, TAGS.JAVASCRIPT, TAGS.SPOTIFYAPI]
   },
   {
