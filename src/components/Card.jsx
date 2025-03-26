@@ -1,8 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { createBlendy } from 'blendy';
 
-import { TITLE_COLOR } from '../../utils/colors.js';
-
 import Modal from './Modal.jsx';
 
 const Card = ({ id, title, subtitle, resume, description, date }) => {
@@ -37,7 +35,7 @@ const Card = ({ id, title, subtitle, resume, description, date }) => {
       {showModal && <Modal id={id} subtitle={subtitle} description={description} action={closeModal} />}
       <button data-blendy-from={id} onClick={openModal}>
         <div className="flex flex-row mb-1 w-[450px] items-center">
-          <h3 className={`text-lg font-semibold ${TITLE_COLOR}`}>
+          <h3 className="text-lg font-semibold text-blue-200">
             {title}
           </h3>
           <time className="block text-sm leading-none text-white/80 ml-auto">

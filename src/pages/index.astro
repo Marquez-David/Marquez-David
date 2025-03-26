@@ -6,7 +6,6 @@ import ImageCard from "../components/ImageCard.astro";
 import experience from "../../data/experience.json";
 import { projects } from "../../data/projects";
 
-import { TITLE_COLOR } from "../../utils/colors.js";
 import { calculateExperienceYears } from "../utils";
 
 const years = calculateExperienceYears("2021-01-01");
@@ -32,7 +31,7 @@ const years = calculateExperienceYears("2021-01-01");
 			</div>
 			<h2 class="text-white text-xl text-wrap my-4">
 				I am a Spanish
-				<span class={`${TITLE_COLOR} font-semibold`}>
+				<span class="text-blue-200 font-semibold">
 					Computer Engineer with {years}+ years of experience in Front-End &
 					Back-End development.
 				</span>

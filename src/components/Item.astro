@@ -4,8 +4,6 @@ import WorkIcon from "../../icons/WorkIcon.astro";
 import ProjectIcon from "../../icons/ProjectIcon.astro";
 import Card from "./Card.jsx";
 
-import { BG_COLOR, BORDER_COLOR } from "../../utils/colors";
-
 const { index, id, type, title, subtitle, resume, description, date } =
   Astro.props;
 ---
@@ -28,7 +26,7 @@ const { index, id, type, title, subtitle, resume, description, date } =
     }
   </span>
   <div
-    class=`rounded-lg p-4 ${BG_COLOR} border ${BORDER_COLOR} ${index % 2 === 0 ? "ml-8" : "mr-8"} border-t-2 border-t-blue-200 hover:scale-105 transition`
+    class=`rounded-lg p-4 bg-gray-800 border border-gray-600 ${index % 2 === 0 ? "ml-8" : "mr-8"} border-t-2 border-t-blue-200 hover:scale-105 transition`
   >
     <Card
       client:load
