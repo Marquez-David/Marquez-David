@@ -5,6 +5,11 @@ import ImageCard from "../components/ImageCard.astro";
 
 import experience from "../../data/experience.json";
 import { projects } from "../../data/projects";
+
+import { TITLE_COLOR } from "../../utils/colors";
+import { calculateExperienceYears } from "../utils";
+
+const years = calculateExperienceYears("2021-01-01");
 ---
 
 <Layout
@@ -26,14 +31,16 @@ import { projects } from "../../data/projects";
 				</div>
 			</div>
 			<h2 class="text-white text-xl text-wrap my-4">
-				I am a Spanish <span class="text-yellow-500">Computer Engineer</span>
-				with a solid experience in <span class="text-yellow-500">Front-End</span
-				> & <span class="text-yellow-500">Back-End</span> development. I have actively
-				participated in several projects, demonstrating skills in multiple technologies.
+				I am a Spanish
+				<span class={`${TITLE_COLOR} font-semibold`}>
+					Computer Engineer with {years}+ years of experience in Front-End &
+					Back-End development.
+				</span>
+				I have actively participated in several projects, demonstrating skills in
+				multiple technologies.
 			</h2>
 		</section>
 
-		<!--- Education & Work experience section -->
 		<section id="experience" class="mx-auto w-[700px]">
 			<h2 class="text-3xl font-semibold flex text-white justify-center mb-8">
 				Education & Work Experience

@@ -1,8 +1,9 @@
 ---
+import { BG_COLOR, BORDER_COLOR, TITLE_COLOR } from "../../utils/colors";
 const { title, description, image, href, tags } = Astro.props;
 ---
 
-<div class="my-4 w-max h-max bg-transparent border border-gray-700 rounded-lg">
+<div class={`my-4 w-max h-max ${BG_COLOR} border ${BORDER_COLOR} rounded-lg`}>
   <a
     href={href}
     target="_blank"
@@ -17,7 +18,7 @@ const { title, description, image, href, tags } = Astro.props;
     />
   </a>
   <div class="p-5">
-    <h5 class="mb-2 text-2xl font-bold tracking-tight text-yellow-600">
+    <h5 class=`{mb-2 text-2xl font-bold tracking-tight ${TITLE_COLOR}}`>
       {title}
     </h5>
     <p class="mb-3 font-normal text-white">
@@ -28,9 +29,7 @@ const { title, description, image, href, tags } = Astro.props;
     {
       tags.map((tag: any) => (
         <li>
-          <span
-            class={`flex gap-x-2 mx-2 rounded-full text-xs ${tag.class} py-2 px-2 border border-white/10`}
-          >
+          <span class="flex gap-x-2 mx-2 rounded-full text-xs py-2 px-2 border border-white/10">
             <tag.icon class="size-4" />
             {tag.name}
           </span>

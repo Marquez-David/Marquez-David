@@ -1,5 +1,4 @@
 ---
-import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import "@fontsource-variable/onest";
 interface Props {
@@ -24,7 +23,6 @@ const { title, description } = Astro.props;
 		class="h-max lg:w-screen min-[320px]:w-fit bg-[#000000] bg-[radial-gradient(#ffffff33_0.2px,#000000_1px)] bg-[size:20px_20px]"
 	>
 		<body>
-			<Header />
 			<slot />
 			<Footer />
 		</body>
