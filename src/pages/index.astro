@@ -6,15 +6,12 @@ import ImageCard from "../components/ImageCard.astro";
 import experience from "../../data/experience.json";
 import { projects } from "../../data/projects";
 
-import { calculateExperienceYears } from "../utils";
+import { calculateExperienceYears } from "../utils/utils";
 
 const years = calculateExperienceYears("2021-01-01");
 ---
 
-<Layout
-	title="David Márquez Mínguez - Computer Engineer"
-	description="Versatilist and easily adapt to different hats depending on what the project requires. I love exploring new tech stack and leveraging them to build cool stuffs."
->
+<Layout>
 	<main class="px-4 justify-center items-center">
 		<!--- About section -->
 		<section id="about" class="py-10 mx-auto w-[700px]">
