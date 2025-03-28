@@ -24,7 +24,7 @@ const { title, description, image, href, tags } = Astro.props;
       {description}
     </p>
   </div>
-  <ul class="flex flex-row mb-2 justify-center">
+  <ul class="flex flex-wrap gap-y-2 mb-2 justify-center">
     {
       tags.map((tag: any) => (
         <li>

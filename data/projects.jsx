@@ -7,6 +7,8 @@ import SpotifyIcon from "../icons/SpotifyIcon.astro"
 import PythonIcon from "../icons/PythonIcon.astro"
 import RIcon from "../icons/RIcon.astro"
 import NextJSIcon from "../icons/NextJSIcon.astro";
+import ReactQueryIcon from "../icons/ReactQueryIcon.astro";
+import CSSIcon from "../icons/CSSIcon.astro";
 
 const TAGS = {
   TAILWIND: {
@@ -58,16 +60,26 @@ const TAGS = {
     name: "NextJS",
     class: "bg-[#003159] text-white",
     icon: NextJSIcon,
-  }
+  },
+  REACTQUERY: {
+    name: "React Query",
+    class: "bg-[#003159] text-white",
+    icon: ReactQueryIcon,
+  },
+  CSS: {
+    name: "CSS",
+    class: "bg-[#003159] text-white",
+    icon: CSSIcon,
+  },
 };
 
 export const projects = [
   {
     "title": "Spotify clone",
-    "description": "Complete and functional development of a Spotify clone using React Native for mobile platforms and React for the web. Integrating Spotify’s API to enable features like music playback, playlists, and user authentication.",
+    "description": "A fully functional Spotify clone developed with seamless integration of Spotify’s API, enabling features such as music playback, playlist management, and user authentication. The interface is designed for a smooth and responsive experience.",
     "image": "/assets/spotify_mobile.webp",
     "href": "https://github.com/Marquez-David/SpotifyClone/tree/main",
-    "tags": [TAGS.NEXTJS, TAGS.REACT, TAGS.TAILWIND, TAGS.REACTNATIVE, TAGS.JAVASCRIPT, TAGS.SPOTIFYAPI]
+    "tags": [TAGS.NEXTJS, TAGS.REACT, TAGS.TAILWIND, TAGS.JAVASCRIPT, TAGS.SPOTIFYAPI, TAGS.REACTQUERY]
   },
   {
     "title": "Web Scraping tools evaluation",
