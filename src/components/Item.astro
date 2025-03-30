@@ -4,7 +4,7 @@ import WorkIcon from "../../icons/WorkIcon.astro";
 import ProjectIcon from "../../icons/ProjectIcon.astro";
 import Card from "./Card.jsx";
 
-const { index, id, type, title, subtitle, resume, description, date } =
+const { index, id, type, title, subtitle, resume, description, date, tags } =
   Astro.props;
 ---
 
@@ -36,6 +36,7 @@ const { index, id, type, title, subtitle, resume, description, date } =
       resume={resume}
       description={description}
       date={date}
+      tags={tags}
     />
   </div>
 </li>
