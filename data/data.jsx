@@ -56,15 +56,15 @@ const TAGS = {
   },
   JAVA: {
     name: "Java",
-    icon: "/icons/JavaIcon.svg",
+    icon: "icons/JavaIcon.svg",
   },
   C: {
     name: "C/C++",
-    icon: "/icons/CIcon.svg",
+    icon: "icons/CIcon.svg",
   },
   RACKET: {
     name: "Racket",
-    icon: "/icons/RacketIcon.svg",
+    icon: "icons/RacketIcon.svg",
   },
   SCALA: {
     name: "Scala",
@@ -112,7 +112,7 @@ const TAGS = {
   },
   JQUERY: {
     name: "",
-    icon: "/icons/jQueryIcon.svg",
+    icon: "/public/icons/jQueryIcon.svg",
   },
   CSS: {
     name: "CSS",
@@ -128,7 +128,7 @@ const TAGS = {
   },
   POSTGRESQL: {
     name: "PostgreSQL",
-    icon: "/icons/PostgreSQLIcon.svg",
+    icon: "/public/icons/PostgreSQLIcon.svg",
   },
   MYSQL: {
     name: "MySQL",
