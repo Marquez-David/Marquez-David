@@ -72,7 +72,7 @@ const TAGS = {
   },
   SERVICENOW: {
     name: "ServiceNow",
-    icon: "/icons/ServiceNowIcon.svg",
+    icon: "/icons/ServicenowIcon.svg",
   },
   R2: {
     name: "R",
@@ -112,7 +112,7 @@ const TAGS = {
   },
   JQUERY: {
     name: "",
-    icon: "/icons/jQueryIcon.svg",
+    icon: "/icons/JQueryIcon.svg",
   },
   CSS: {
     name: "CSS",
@@ -128,7 +128,7 @@ const TAGS = {
   },
   POSTGRESQL: {
     name: "PostgreSQL",
-    icon: "/icons/PostgreSQLIcon.svg",
+    icon: "/icons/PostgresqlIcon.svg",
   },
   MYSQL: {
     name: "MySQL",
