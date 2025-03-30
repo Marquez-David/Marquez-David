@@ -3,7 +3,7 @@ import { createBlendy } from 'blendy';
 
 import Modal from './Modal.jsx';
 
-const Card = ({ id, title, subtitle, resume, description, date }) => {
+const Card = ({ id, title, subtitle, resume, description, date, tags }) => {
   const blendyRef = useRef(null);
   const [showModal, setShowModal] = useState(false);
 
@@ -32,7 +32,7 @@ const Card = ({ id, title, subtitle, resume, description, date }) => {
 
   return (
     <>
-      {showModal && <Modal id={id} subtitle={subtitle} description={description} action={closeModal} />}
+      {showModal && <Modal id={id} subtitle={subtitle} tags={tags} description={description} action={closeModal} />}
       <button data-blendy-from={id} onClick={openModal}>
         <div className="flex flex-row mb-1 w-[450px] items-center">
           <h3 className="text-lg font-semibold text-blue-200">

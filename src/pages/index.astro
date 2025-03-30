@@ -3,11 +3,9 @@ import Layout from "../layouts/Layout.astro";
 import Item from "../components/Item.astro";
 import ImageCard from "../components/ImageCard.astro";
 
-import experience from "../../data/experience.json";
-import { projects } from "../../data/projects";
+import { experience, projects } from "../../data/data";
 
 import { calculateExperienceYears } from "../utils/utils";
-
 const years = calculateExperienceYears("2021-01-01");
 ---
 
