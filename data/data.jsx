@@ -112,7 +112,7 @@ const TAGS = {
   },
   JQUERY: {
     name: "",
-    icon: "/public/icons/jQueryIcon.svg",
+    icon: "/icons/jQueryIcon.svg",
   },
   CSS: {
     name: "CSS",
@@ -128,7 +128,7 @@ const TAGS = {
   },
   POSTGRESQL: {
     name: "PostgreSQL",
-    icon: "/public/icons/PostgreSQLIcon.svg",
+    icon: "/icons/PostgreSQLIcon.svg",
   },
   MYSQL: {
     name: "MySQL",
