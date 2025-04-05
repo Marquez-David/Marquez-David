@@ -25,7 +25,7 @@ const Modal = ({ id, subtitle, description, tags, action }) => {
                   <li key={index}>
                     <span className="flex gap-x-2 mx-2 rounded-full text-xs py-2 px-2 border border-white/10">
                       <img src={tag.icon} alt={tag.name} />
-                      {tag.name}
+                      <p class="text-white/80">{tag.name}</p>
                     </span>
                   </li>
                 ))
