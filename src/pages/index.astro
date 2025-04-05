@@ -10,7 +10,7 @@ const years = calculateExperienceYears("2021-01-01");
 ---
 
 <Layout>
-	<main class="px-4 justify-center items-center">
+	<main>
 		<!--- About section -->
 		<section
 			id="about"
@@ -38,21 +38,27 @@ const years = calculateExperienceYears("2021-01-01");
 			</h2>
 		</section>
 
-		<section id="experience" class="mx-auto">
+		<!--- Expecience section -->
+		<section id="experience" class="w-[750px] md:w-[1000px] mx-auto">
 			<h2 class="text-3xl font-semibold flex text-white justify-center mb-8">
 				Education & Work Experience
 			</h2>
-			<ol class="relative border-s w-px left-1/2 h-full border-gray-200">
+			<ol class="relative w-full mt-4">
+				<div
+					class="absolute left-1/2 h-full border-s bg-gray-200 -translate-x-1/2"
+				>
+				</div>
+
 				{experience.map((item, index) => <Item index={index} {...item} />)}
 			</ol>
 		</section>
 
 		<!--- Projects section -->
-		<section id="projects" class="mx-auto w-[740px]">
+		<section id="projects" class="w-[750px] mx-auto">
 			<h2 class="text-3xl font-semibold flex pt-12 text-white justify-center">
 				Projects
 			</h2>
-			<div class="flex flex-wrap justify-center">
+			<div class="flex flex-wrap justify-center items-center">
 				{projects.map((project) => <ImageCard {...project} />)}
 			</div>
 			<a

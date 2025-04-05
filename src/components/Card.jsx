@@ -31,14 +31,14 @@ const Card = ({ id, title, subtitle, resume, description, date, tags }) => {
   };
 
   return (
-    <>
+    <div className={`rounded-lg p-4 bg-gray-800 border border-gray-600 border-t-2 border-t-blue-200 hover:scale-105 transition`}>
       {showModal && <Modal id={id} subtitle={subtitle} tags={tags} description={description} action={closeModal} />}
       <button data-blendy-from={id} onClick={openModal}>
-        <div className="flex flex-row mb-1 w-[450px] items-center">
+        <div className="flex flex-col md:flex-row items-start md:items-center mb-3">
           <h3 className="text-lg font-semibold text-blue-200">
             {title}
           </h3>
-          <time className="block text-sm leading-none text-white/80 ml-auto">
+          <time className="block text-sm font-semibold text-white/80 md:ml-auto">
             {date}
           </time>
         </div>
@@ -46,7 +46,7 @@ const Card = ({ id, title, subtitle, resume, description, date, tags }) => {
           {resume}
         </p>
       </button>
-    </>
+    </div>
   );
 };
 

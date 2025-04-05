@@ -133,7 +133,11 @@ const TAGS = {
   MYSQL: {
     name: "MySQL",
     icon: "/icons/MYSQLIcon.svg",
-  }
+  },
+  CUDA: {
+    name: "Cuda",
+    icon: "/icons/CudaIcon.svg",
+  },
 };
 
 export const projects = [
@@ -187,11 +191,11 @@ export const experience = [
   {
     "id": "lddTaWCYmO21C0qt",
     "type": "education",
-    "title": "Bachelor in Computer Science",
+    "title": "Computer Science Bachelor",
     "subtitle": "Bachelor's degree in Computer Science with Mention in Computation",
     "resume": "A multidisciplinary program combining software engineering, algorithms, data structures, computational theory, and system architecture, emphasizing both theoretical and practical applications in computing.",
     "description": "The Bachelor's in Computer Science provided a solid foundation in key computer science areas, including software engineering, algorithms, data structures, and computation. The curriculum offered both theoretical insights into computational models and hands-on experience through projects, which helped develop technical and problem-solving skills. The program also emphasized teamwork, research, and the ability to adapt to rapid technological advancements, preparing me for roles in software development, systems analysis, and research.",
     "date": "Aug. 2016 ➡ May 2021",
-    "tags": [TAGS.JAVA, TAGS.C, TAGS.RACKET, TAGS.SCALA, TAGS.R2, TAGS.PYTHON2, TAGS.POSTGRESQL, TAGS.MYSQL]
+    "tags": [TAGS.JAVA, TAGS.C, TAGS.RACKET, TAGS.SCALA, TAGS.R2, TAGS.PYTHON2, TAGS.JAVASCRIPT2, TAGS.CUDA, TAGS.POSTGRESQL, TAGS.MYSQL]
   }
 ]
