@@ -3,8 +3,18 @@ import EducationIcon from "../../icons/EducationIcon.astro";
 import WorkIcon from "../../icons/WorkIcon.astro";
 import Card from "./Card.jsx";
 
-const { index, id, type, title, subtitle, resume, description, date, tags } =
-  Astro.props;
+const {
+  index,
+  id,
+  name,
+  title,
+  subtitle,
+  src,
+  resume,
+  description,
+  date,
+  tags,
+} = Astro.props;
 ---
 
 <li class="w-full flex relative">
@@ -25,9 +35,9 @@ const { index, id, type, title, subtitle, resume, description, date, tags } =
     }
   </div>
   <span
-    class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center w-6 h-6 bg-white rounded-full ring-8 ring-white"
+    class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center w-9 h-9 bg-gray-400 rounded-full ring-1 ring-gray-400"
   >
-    {type === "education" ? <EducationIcon /> : <WorkIcon />}
+    <img src={src} class="w-full h-full rounded-full" alt=`${name} logo` />
   </span>
   <div class="w-1/2 flex justify-start pl-8">
     {
